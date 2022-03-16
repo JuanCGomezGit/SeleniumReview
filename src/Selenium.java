@@ -13,6 +13,6 @@ public class Selenium {
         String title= driver.getTitle();
         String myCurrentUrl=driver.getCurrentUrl();
         System.out.println(title+" "+myCurrentUrl);
-        //driver.quit();
+        driver.quit();
     } 
 }
